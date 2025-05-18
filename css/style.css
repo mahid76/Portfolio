@@ -251,29 +251,29 @@ transform: translateY(0.5em);
 
 
 #home_part .container .row .main .linee {
-	margin: 100px 0 20px;
-	text-align: center;
+  margin     : 100px 0 20px;
+  text-align : center;
 }
 
 #home_part .container .row .right .right1 {
-	display: flex;
-	align-items: end;
-	justify-content: center;
-	overflow: hidden;
+  display         : flex;
+  align-items     : end;
+  justify-content : center;
+  overflow        : hidden;
 }
 #home_part .container .row .right img {
-	height: 877px;
-	object-fit: contain;
-	margin: 0 auto;
+  height          : 877px;
+  object-fit      : contain;
+  margin          : 0 auto;
 }
 
 #home_part .container .main .abtn {
-	margin-top: 70px;
+  margin-top      : 70px;
 }
 #home_part .container .main .abtn button {
-	border-left: 1px solid var(--black);
-	border-right: 1px solid var(--black);
-	color: var(--black);
+  border-left     : 1px solid var(--black);
+  border-right    : 1px solid var(--black);
+  color           : var(--black);
 }
 #home_part .container .main .abtn button .ovr1,
 #home_part .container .main .abtn button .ovr2 {
