@@ -14,7 +14,7 @@ const Home = () => {
 	return (
 		<div>
 			<Navbar></Navbar>
-			<section className="bg-black relative before:bg-[#d7d7d7]  pt-[30px]  z-[1] before:absolute before:h-[100%] before:w-[100%] before:z-[-1] before:top-0 before:left-0 before:[clip-path:polygon(0_0,58%_0,42%_100%,0_100%)]">
+			<section className="bg-black relative before:bg-[#d7d7d7]  pt-[30px]  z-[1] before:absolute before:h-[100%] before:w-[100%] before:z-[-1] before:top-0 before:left-0 before:[clip-path:polygon(0_0,56%_0,42%_100%,0_100%)]">
 				<Container>
 					<div className="flex justify-between items-center">
 						<div className="">
@@ -34,25 +34,25 @@ const Home = () => {
 							</div>
 							<div className="flex mt-[80px] justify-between">
 								<a href="mailto:mahidulislamsohan76@gmail.com">
-									<IoMail className="hover:scale-110 size-[40px] shadow-[0_8px_30px_rgb(0,0,0,0.25)] px-2  text-black bg-[#c4c4c4] rounded-[10px] " />
+									<IoMail className="hover:scale-125 duration-200 size-[40px] shadow-[0_8px_30px_rgb(0,0,0,0.25)] px-2  text-black bg-[#c4c4c4] rounded-[10px] " />
 								</a>
 								<a href="https://www.linkedin.com/in/md-mahidul-islam-poblaaa/">
-									<FaLinkedin className="hover:scale-110 size-[40px] shadow-[0_8px_30px_rgb(0,0,0,0.25)] px-2  text-black bg-[#c4c4c4] rounded-[10px] " />
+									<FaLinkedin className="hover:scale-125 duration-200 size-[40px] shadow-[0_8px_30px_rgb(0,0,0,0.25)] px-2  text-black bg-[#c4c4c4] rounded-[10px] " />
 								</a>
 								<a href="https://www.facebook.com/jerrypoblaaa">
-									<FaFacebook className="hover:scale-110 size-[40px] shadow-[0_8px_30px_rgb(0,0,0,0.25)] px-2  text-black bg-[#c4c4c4] rounded-[10px] " />
+									<FaFacebook className="hover:scale-125 duration-200 size-[40px] shadow-[0_8px_30px_rgb(0,0,0,0.25)] px-2  text-black bg-[#c4c4c4] rounded-[10px] " />
 								</a>
 								<a href="#">
-									<FaSquareInstagram className="hover:scale-110 size-[40px] shadow-[0_8px_30px_rgb(0,0,0,0.25)] px-2  text-black bg-[#c4c4c4] rounded-[10px] " />
+									<FaSquareInstagram className="hover:scale-125 duration-200 size-[40px] shadow-[0_8px_30px_rgb(0,0,0,0.25)] px-2  text-black bg-[#c4c4c4] rounded-[10px] " />
 								</a>
 								<a href="tel:+8801601117731">
-									<FaSquareWhatsapp className="hover:scale-110 size-[40px] shadow-[0_8px_30px_rgb(0,0,0,0.25)] px-2  text-black bg-[#c4c4c4] rounded-[10px] " />
+									<FaSquareWhatsapp className="hover:scale-125 duration-200 size-[40px] shadow-[0_8px_30px_rgb(0,0,0,0.25)] px-2  text-black bg-[#c4c4c4] rounded-[10px] " />
 								</a>
 								<a href="https://github.com/mahid76">
-									<FaGithub className="hover:scale-110 size-[40px] shadow-[0_8px_30px_rgb(0,0,0,0.25)] px-2  text-black bg-[#c4c4c4] rounded-[10px] " />
+									<FaGithub className="hover:scale-125 duration-200 size-[40px] shadow-[0_8px_30px_rgb(0,0,0,0.25)] px-2  text-black bg-[#c4c4c4] rounded-[10px] " />
 								</a>
 								<a href="#">
-									<FaSquareXTwitter className="hover:scale-110 size-[40px] shadow-[0_8px_30px_rgb(0,0,0,0.25)] px-2  text-black bg-[#c4c4c4] rounded-[10px] " />
+									<FaSquareXTwitter className="hover:scale-125 duration-200 size-[40px] shadow-[0_8px_30px_rgb(0,0,0,0.25)] px-2  text-black bg-[#c4c4c4] rounded-[10px] " />
 								</a>
 							</div>
 							<div className="flex justify-center mt-[80px]">
