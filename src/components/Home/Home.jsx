@@ -9,6 +9,7 @@ import mahidPicture from "../../assets/mahidPicture.png";
 import Container from "../Layout/Container";
 import Navbar from "../Navbar/Navbar";
 import Line from "../SVG/Line";
+import Bio from "../Bio/Bio";
 
 const Home = () => {
 	return (
@@ -19,13 +20,13 @@ const Home = () => {
 					<div className="flex justify-between items-center">
 						<div className="">
 							<div className="title">
-								<h4 className="text-[35px] text-black font-bold font-secondary ">
+								<h4 className="tracking-widest text-[35px] text-black font-bold font-secondary ">
 									Hi, I am
 								</h4>
 								<h2 className="tracking-wider font-bold font-primary leading-20 text-black text-[65px] mt-[30px] ">
 									Md. Mahidul Islam
 								</h2>
-								<p className="font-secondary mt-3 text-2xl text-[#909090] font-bold">
+								<p className="tracking-wider font-secondary mt-3 text-2xl text-[#909090] font-bold">
 									Front-end Developer
 								</p>
 							</div>
@@ -71,6 +72,7 @@ const Home = () => {
 					</div>
 				</Container>
 			</section>
+			<Bio></Bio>
 		</div>
 	);
 };
