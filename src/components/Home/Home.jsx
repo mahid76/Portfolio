@@ -1,3 +1,5 @@
+import AOS from "aos";
+import "aos/dist/aos.css";
 import { FaFacebook, FaGithub, FaLinkedin } from "react-icons/fa";
 import {
 	FaSquareInstagram,
@@ -6,28 +8,87 @@ import {
 } from "react-icons/fa6";
 import { IoMail } from "react-icons/io5";
 import mahidPicture from "../../assets/mahidPicture.png";
+import Bio from "../Bio/Bio";
 import Container from "../Layout/Container";
 import Navbar from "../Navbar/Navbar";
+import AnimatedContent from "../ReactBits/AnimatedContent";
+import Silk from "../ReactBits/Slik";
+import SplitText from "../ReactBits/SplitText";
 import Line from "../SVG/Line";
-import Bio from "../Bio/Bio";
+
+
+
+const handleAnimationComplete = () => {
+	console.log("All letters have animated!");
+};
+AOS.init();
 
 const Home = () => {
 	return (
 		<div>
 			<Navbar></Navbar>
 			<section className="bg-black relative before:bg-[#d7d7d7]  pt-[30px]  z-[1] before:absolute before:h-[100%] before:w-[100%] before:z-[-1] before:top-0 before:left-0 before:[clip-path:polygon(0_0,56%_0,42%_100%,0_100%)]">
+				<div className="absolute top-0 left-0 bg-black w-full h-full z-[-10]">
+					<Silk
+						speed={5}
+						scale={1}
+						color="#242323"
+						noiseIntensity={1.5}
+						rotation={0}
+					/>
+				</div>
 				<Container>
 					<div className="flex justify-between items-center">
 						<div className="">
 							<div className="title">
-								<h4 className="tracking-widest text-[35px] text-black font-bold font-secondary ">
-									Hi, I am
+								<h4 className="">
+									<SplitText
+										text="Hi, i am"
+										className="tracking-widest text-[35px] text-black font-bold font-secondary  text-center"
+										delay={800}
+										duration={3}
+										ease="power3.out"
+										splitType="lines"
+										from={{ opacity: 0, y: 40 }}
+										to={{ opacity: 1, y: 0 }}
+										threshold={0.1}
+										rootMargin="-100px"
+										textAlign="center"
+										onLetterAnimationComplete={handleAnimationComplete}
+									/>
 								</h4>
-								<h2 className="tracking-wider font-bold font-primary leading-20 text-black text-[65px] mt-[30px] ">
-									Md. Mahidul Islam
+								<h2 className=" ">
+									<SplitText
+										text="Md. Mahidul Islam"
+										className="tracking-wider font-bold font-primary leading-20 text-black text-[65px] mt-[30px]  text-center"
+										delay={800}
+										duration={3}
+										ease="power3.out"
+										splitType="lines"
+										from={{ opacity: 0, y: 40 }}
+										to={{ opacity: 1, y: 0 }}
+										threshold={0.1}
+										rootMargin="-100px"
+										textAlign="center"
+										onLetterAnimationComplete={handleAnimationComplete}
+									/>
 								</h2>
 								<p className="tracking-wider font-secondary mt-3 text-2xl text-[#909090] font-bold">
-									Front-end Developer
+									
+									<SplitText
+										text="Front-end Developer"
+										className="tracking-wider font-secondary  text-2xl text-[#909090] font-bold text-center"
+										delay={800}
+										duration={3}
+										ease="power3.out"
+										splitType="lines"
+										from={{ opacity: 0, y: 40 }}
+										to={{ opacity: 1, y: 0 }}
+										threshold={0.1}
+										rootMargin="-100px"
+										textAlign="center"
+										onLetterAnimationComplete={handleAnimationComplete}
+									/>
 								</p>
 							</div>
 							<div className="mt-[100px] flex justify-center">
@@ -66,8 +127,23 @@ const Home = () => {
 								</a>
 							</div>
 						</div>
-						<div className="  ">
-							<img className="h-[877px]" src={mahidPicture} alt="" />
+						<div>
+							<AnimatedContent
+								distance={100}
+								direction="horizontal"
+								reverse={false}
+								duration={3}
+								ease="power3.out"
+								initialOpacity={0}
+								animateOpacity
+								scale={1}
+								threshold={0.1}
+								delay={0.2}
+							>
+								<div>
+									<img className="h-[877px]" src={mahidPicture} alt="" />
+								</div>
+							</AnimatedContent>
 						</div>
 					</div>
 				</Container>

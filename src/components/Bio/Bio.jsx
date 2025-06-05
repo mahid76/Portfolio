@@ -1,10 +1,12 @@
 import React from 'react'
 import Container from '../Layout/Container'
 
+
 const Bio = () => {
   return (
     <section className='py-14 bg-black '>
       <Container>
+        
         <div className='max-w-[772px]'>
           <h3 className='font-bold text-[30px]  text-white tracking-[20.54%] font-primary  '>"Let’s Build Something Great"</h3>
           <p className='font-secondary tracking-wide text-[15px] text-white leading-[155.7%] mt-9 '>If you're looking for a developer who cares as much about design as they do about functionality, let's connect. Whether you have a startup idea or need help polishing your existing site, I’m ready to help.</p>
