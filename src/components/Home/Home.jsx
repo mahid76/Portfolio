@@ -28,25 +28,25 @@ const Home = () => {
 						</div>
 						<div className="flex mt-[53px] justify-between">
 							<a href="mailto:mahidulislamsohan76@gmail.com">
-								<IoMail className="hover:scale-110 size-[40px] shadow-lg px-2  text-black bg-[#c4c4c4] rounded-[10px] "/>
+								<IoMail className="hover:scale-110 size-[40px] shadow-md px-2  text-black bg-[#c4c4c4] rounded-[10px] "/>
 							</a>
 							<a href="https://www.linkedin.com/in/md-mahidul-islam-poblaaa/">
-								<FaLinkedin className="hover:scale-110 size-[40px] shadow-lg px-2  text-black bg-[#c4c4c4] rounded-[10px] " />
+								<FaLinkedin className="hover:scale-110 size-[40px] shadow-md px-2  text-black bg-[#c4c4c4] rounded-[10px] " />
 							</a>
 							<a href="https://www.facebook.com/jerrypoblaaa">
-								<FaFacebook className="hover:scale-110 size-[40px] shadow-lg px-2  text-black bg-[#c4c4c4] rounded-[10px] " />
+								<FaFacebook className="hover:scale-110 size-[40px] shadow-md px-2  text-black bg-[#c4c4c4] rounded-[10px] " />
 							</a>
 							<a href="#">
-								<FaSquareInstagram className="hover:scale-110 size-[40px] shadow-lg px-2  text-black bg-[#c4c4c4] rounded-[10px] " />
+								<FaSquareInstagram className="hover:scale-110 size-[40px] shadow-md px-2  text-black bg-[#c4c4c4] rounded-[10px] " />
 							</a>
 							<a href="tel:+8801601117731">
-								<FaSquareWhatsapp className="hover:scale-110 size-[40px] shadow-lg px-2  text-black bg-[#c4c4c4] rounded-[10px] " />
+								<FaSquareWhatsapp className="hover:scale-110 size-[40px] shadow-md px-2  text-black bg-[#c4c4c4] rounded-[10px] " />
 							</a>
 							<a href="https://github.com/mahid76">
-								<FaGithub className="hover:scale-110 size-[40px] shadow-lg px-2  text-black bg-[#c4c4c4] rounded-[10px] " />
+								<FaGithub className="hover:scale-110 size-[40px] shadow-md px-2  text-black bg-[#c4c4c4] rounded-[10px] " />
 							</a>
 							<a href="#">
-								<FaSquareXTwitter className="hover:scale-110 size-[40px] shadow-lg px-2  text-black bg-[#c4c4c4] rounded-[10px] " />
+								<FaSquareXTwitter className="hover:scale-110 size-[40px] shadow-md px-2  text-black bg-[#c4c4c4] rounded-[10px] " />
 							</a>
 						</div>
             <div className="flex justify-center mt-[63px]">
