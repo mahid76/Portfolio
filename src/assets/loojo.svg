@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 320.9 69.2">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #000;
+      }
+
+      .cls-1, .cls-2 {
+        stroke-width: 0px;
+      }
+
+      .cls-2 {
+        fill: #fff;
+      }
+    </style>
+  </defs>
+  <rect class="cls-1" width="320.9" height="69.2"/>
+  <g>
+    <g>
+      <path class="cls-2" d="M11.4,26.2c.7,1.5,1.5,3.4,2.5,5.8,1.5-4.7-.3-10.7,6-13.2-.9,4.3,1.4,7.1,3.7,10.1,2.7,3.5,5.3,7.3,7,11.4,3.6,8.7-.1,16.8-8.5,19.6-8.8,3-18.1-1.5-20.7-10.1-1.6-5.2-.6-9.7,3.1-13.8,2.6-2.9,4.6-6.3,6.9-9.7ZM19.7,36.3c-2.7,2.2-5.2,4.2-7.7,6.3-2.4,2.1-4,4.5-2.6,7.9,1.2,3,5.3,5.4,8.2,4.6,3.3-.8,5.5-3,5.7-6.6.2-4.7-1.3-9-3.6-12.3Z"/>
+      <path class="cls-2" d="M32.2,18.8v-8.2h16v8.2h-16Z"/>
+      <path class="cls-2" d="M67,10.7v8.2h-16v-8.2h16Z"/>
+      <path class="cls-2" d="M42.7,21.9h16v8.4h-16v-8.4Z"/>
+      <path class="cls-2" d="M61.4,30.2v-8.3h16.1v8.3h-16.1Z"/>
+      <path class="cls-2" d="M67,33.3v8.3h-16v-8.3h16Z"/>
+      <path class="cls-2" d="M58.8,44.6v8.3h-16v-8.3h16Z"/>
+      <path class="cls-2" d="M77.5,44.6v8.3h-16v-8.3h16Z"/>
+      <path class="cls-2" d="M48.2,41.7h-13.8c-.9-2.6-1.8-5.3-2.8-8.5h16.6v8.5Z"/>
+      <path class="cls-2" d="M23.9,21.8h16v8.1c-8.5,2.4-15.6-1-16-8.1Z"/>
+      <path class="cls-2" d="M13.4,19.5v-9.1c2.6,0,5.3,0,8,0s5.2,0,8.1,0v8.5c-2.5-.2-5.5,2-6.9-2.4-.2-.6-3.1-.9-4.5-.5-1.5.5-2.7,2-4.7,3.5Z"/>
+      <path class="cls-2" d="M69.7,10.6h7.8v8.3h-7.8v-8.3Z"/>
+      <path class="cls-2" d="M69.6,41.6v-8.3h7.8v8.3h-7.8Z"/>
+      <path class="cls-2" d="M35.3,44.4h4.6v8.5h-5.6c.3-2.8.7-5.5,1-8.5Z"/>
+    </g>
+    <g>
+      <path class="cls-2" d="M126.3,23.1c3.4,0,6.1,1.1,8.2,3.3,2.1,2.2,3.1,5.1,3.1,8.8v18.6h-5.2v-18.5c0-2.3-.6-4.1-1.8-5.4-1.2-1.3-2.8-1.9-4.8-1.9s-4,.7-5.4,2.2c-1.3,1.5-2,3.8-2,6.9v16.7h-5.2v-18.5c0-2.3-.6-4.1-1.7-5.4-1.1-1.3-2.7-1.9-4.6-1.9s-4,.8-5.5,2.3c-1.5,1.5-2.2,3.8-2.2,6.8v16.7h-5.2v-30h5.2v4c2-3.2,5-4.8,8.9-4.8s7,1.7,8.8,5.1c2.1-3.4,5.2-5.1,9.4-5.1Z"/>
+      <path class="cls-2" d="M169.6,23.9h5.2v30h-5.2v-5.2c-2.6,4-6.4,5.9-11.3,5.9s-7.8-1.5-10.7-4.6c-3-3.1-4.4-6.8-4.4-11.2s1.5-8.1,4.4-11.2c3-3.1,6.5-4.6,10.7-4.6s8.7,2,11.3,5.9v-5.2ZM158.9,49.6c3,0,5.6-1,7.6-3.1,2-2.1,3.1-4.6,3.1-7.6s-1-5.6-3.1-7.6c-2-2.1-4.6-3.1-7.6-3.1s-5.5,1-7.6,3.1c-2,2.1-3.1,4.6-3.1,7.6s1,5.6,3.1,7.6c2,2.1,4.6,3.1,7.6,3.1Z"/>
+      <path class="cls-2" d="M197.7,23.1c3.5,0,6.3,1.1,8.5,3.3,2.1,2.2,3.2,5.2,3.2,9v18.4h-5.2v-18.1c0-2.4-.7-4.3-2-5.7-1.3-1.3-3.1-2-5.5-2s-4.7.8-6.3,2.4c-1.6,1.6-2.4,4.1-2.4,7.5v15.9h-5.2V11.9h5.2v16.3c2.1-3.4,5.4-5.1,9.7-5.1Z"/>
+      <path class="cls-2" d="M219.2,18.4c-1,0-1.8-.3-2.5-1-.7-.7-1-1.5-1-2.5s.3-1.8,1-2.5c.7-.7,1.5-1,2.5-1s1.8.4,2.5,1c.7.7,1,1.5,1,2.5s-.3,1.8-1,2.5-1.5,1-2.5,1ZM216.5,53.9v-30h5.2v30h-5.2Z"/>
+      <path class="cls-2" d="M254.5,11.9h5.2v42h-5.2v-5.2c-2.6,4-6.4,5.9-11.3,5.9s-7.8-1.5-10.7-4.6c-3-3.1-4.4-6.8-4.4-11.2s1.5-8.1,4.4-11.2,6.5-4.6,10.7-4.6,8.7,2,11.3,5.9V11.9ZM243.9,49.6c3,0,5.6-1,7.6-3.1,2-2.1,3.1-4.6,3.1-7.6s-1-5.6-3.1-7.6c-2-2.1-4.6-3.1-7.6-3.1s-5.5,1-7.6,3.1c-2,2.1-3.1,4.6-3.1,7.6s1,5.6,3.1,7.6c2,2.1,4.6,3.1,7.6,3.1Z"/>
+      <path class="cls-2" d="M263.6,11.9h26.2v5l-15.3,37h-5.8l15.2-36.7h-20.3v-5.3Z"/>
+      <path class="cls-2" d="M303.2,26.4c4.2,0,7.7,1.3,10.4,3.9,2.7,2.6,4.1,6,4.1,10.2s-1.4,7.6-4.1,10.2c-2.7,2.6-6.2,4-10.4,4s-7.7-1.3-10.4-4-4-6-4-10.2.8-6,2.5-8.4l13.5-20.2h6.4l-9.9,14.6c.9,0,1.6-.1,2-.1ZM296.8,46.9c1.7,1.6,3.8,2.4,6.4,2.4s4.8-.8,6.4-2.4c1.7-1.6,2.5-3.7,2.5-6.4s-.8-4.8-2.5-6.4c-1.7-1.6-3.8-2.4-6.4-2.4s-4.8.8-6.5,2.4c-1.6,1.6-2.5,3.7-2.5,6.4s.8,4.8,2.5,6.4Z"/>
+    </g>
+  </g>
+  <metadata>
+    <sfw xmlns="http://ns.adobe.com/SaveForWeb/1.0/">
+      <slices/>
+      <sliceSourceBounds x="18.94" y="273.18" width="320.94" height="69.18" bottomLeftOrigin="true"/>
+    </sfw>
+  </metadata>
+  <metadata><?xpacket begin="﻿" id="W5M0MpCehiHzreSzNTczkc9d"?>
+<x:xmpmeta xmlns:x="adobe:ns:meta/" x:xmptk="Adobe XMP Core 9.1-c002 79.a6a6396, 2024/03/12-07:48:23        ">
+   <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+      <rdf:Description rdf:about=""
+            xmlns:xmpMM="http://ns.adobe.com/xap/1.0/mm/"
+            xmlns:stRef="http://ns.adobe.com/xap/1.0/sType/ResourceRef#"
+            xmlns:stEvt="http://ns.adobe.com/xap/1.0/sType/ResourceEvent#"
+            xmlns:dc="http://purl.org/dc/elements/1.1/"
+            xmlns:xmp="http://ns.adobe.com/xap/1.0/"
+            xmlns:xmpGImg="http://ns.adobe.com/xap/1.0/g/img/"
+            xmlns:xmpTPg="http://ns.adobe.com/xap/1.0/t/pg/"
+            xmlns:stDim="http://ns.adobe.com/xap/1.0/sType/Dimensions#"
+            xmlns:stFnt="http://ns.adobe.com/xap/1.0/sType/Font#"
+            xmlns:xmpG="http://ns.adobe.com/xap/1.0/g/"
+            xmlns:illustrator="http://ns.adobe.com/illustrator/1.0/"
+            xmlns:pdf="http://ns.adobe.com/pdf/1.3/">
+         <xmpMM:DocumentID>xmp.did:1ab2e474-0d34-8048-837f-28dd67f1e79f</xmpMM:DocumentID>
+         <xmpMM:InstanceID>xmp.iid:1ab2e474-0d34-8048-837f-28dd67f1e79f</xmpMM:InstanceID>
+         <xmpMM:OriginalDocumentID>xmp.did:c6019c26-0f6a-6446-8982-d85b71e62ead</xmpMM:OriginalDocumentID>
+         <xmpMM:RenditionClass>default</xmpMM:RenditionClass>
+         <xmpMM:DerivedFrom rdf:parseType="Resource">
+            <stRef:instanceID>xmp.iid:57f768eb-e674-ea4f-8d68-70221843eaa3</stRef:instanceID>
+            <stRef:documentID>xmp.did:57f768eb-e674-ea4f-8d68-70221843eaa3</stRef:documentID>
+            <stRef:originalDocumentID>xmp.did:c6019c26-0f6a-6446-8982-d85b71e62ead</stRef:originalDocumentID>
+            <stRef:renditionClass>default</stRef:renditionClass>
+         </xmpMM:DerivedFrom>
+         <xmpMM:History>
+            <rdf:Seq>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:c6019c26-0f6a-6446-8982-d85b71e62ead</stEvt:instanceID>
+                  <stEvt:when>2025-06-05T18:44:22+06:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe Illustrator 28.5 (Windows)</stEvt:softwareAgent>
+                  <stEvt:changed>/</stEvt:changed>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:1ab2e474-0d34-8048-837f-28dd67f1e79f</stEvt:instanceID>
+                  <stEvt:when>2025-06-05T19:20:09+06:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe Illustrator 28.5 (Windows)</stEvt:softwareAgent>
+                  <stEvt:changed>/</stEvt:changed>
+               </rdf:li>
+            </rdf:Seq>
+         </xmpMM:History>
+         <dc:format>image/svg+xml</dc:format>
+         <dc:title>
+            <rdf:Alt>
+               <rdf:li xml:lang="x-default">Screenshot 2025-06-05 183403</rdf:li>
+            </rdf:Alt>
+         </dc:title>
+         <xmp:CreatorTool>Adobe Illustrator 28.5 (Windows)</xmp:CreatorTool>
+         <xmp:CreateDate>2025-06-05T19:20:09+06:00</xmp:CreateDate>
+         <xmp:MetadataDate>2025-06-05T19:20:09+06:00</xmp:MetadataDate>
+         <xmp:ModifyDate>2025-06-05T19:20:09+06:00</xmp:ModifyDate>
+         <xmp:Thumbnails>
+            <rdf:Alt>
+               <rdf:li rdf:parseType="Resource">
+                  <xmpGImg:width>256</xmpGImg:width>
+                  <xmpGImg:height>56</xmpGImg:height>
+                  <xmpGImg:format>JPEG</xmpGImg:format>
+                  <xmpGImg:image>/9j/4AAQSkZJRgABAgEASABIAAD/7QAsUGhvdG9zaG9wIDMuMAA4QklNA+0AAAAAABAASAAAAAEA&#xA;AQBIAAAAAQAB/+4ADkFkb2JlAGTAAAAAAf/bAIQABgQEBAUEBgUFBgkGBQYJCwgGBggLDAoKCwoK&#xA;DBAMDAwMDAwQDA4PEA8ODBMTFBQTExwbGxscHx8fHx8fHx8fHwEHBwcNDA0YEBAYGhURFRofHx8f&#xA;Hx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8f/8AAEQgAOAEAAwER&#xA;AAIRAQMRAf/EAaIAAAAHAQEBAQEAAAAAAAAAAAQFAwIGAQAHCAkKCwEAAgIDAQEBAQEAAAAAAAAA&#xA;AQACAwQFBgcICQoLEAACAQMDAgQCBgcDBAIGAnMBAgMRBAAFIRIxQVEGE2EicYEUMpGhBxWxQiPB&#xA;UtHhMxZi8CRygvElQzRTkqKyY3PCNUQnk6OzNhdUZHTD0uIIJoMJChgZhJRFRqS0VtNVKBry4/PE&#xA;1OT0ZXWFlaW1xdXl9WZ2hpamtsbW5vY3R1dnd4eXp7fH1+f3OEhYaHiImKi4yNjo+Ck5SVlpeYmZ&#xA;qbnJ2en5KjpKWmp6ipqqusra6voRAAICAQIDBQUEBQYECAMDbQEAAhEDBCESMUEFURNhIgZxgZEy&#xA;obHwFMHR4SNCFVJicvEzJDRDghaSUyWiY7LCB3PSNeJEgxdUkwgJChgZJjZFGidkdFU38qOzwygp&#xA;0+PzhJSktMTU5PRldYWVpbXF1eX1RlZmdoaWprbG1ub2R1dnd4eXp7fH1+f3OEhYaHiImKi4yNjo&#xA;+DlJWWl5iZmpucnZ6fkqOkpaanqKmqq6ytrq+v/aAAwDAQACEQMRAD8A8qYq7FXYq7FXYq7FXYq7&#xA;FXYq7FXYq7FXYq7FXYq7FXYq7FXYq7FXYq7FXYq7FXYq7FXYq7FXYq7FXYq7FXYq+rfyK/MvyX5P&#xA;/KLS7XULOTWfMOo390thomnwLc30o5D4uBpxQU6k79gaHFXrflz80Pyu83eR5tdtZrLT1eOaOazv&#xA;2tobiGRQV4uvIj4tipB3BHfbFUp/JHzJ+Xlt+U/liDUNU0iG9js1E8VxPbLKrcm2dXYMD88Vd+d3&#xA;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</xmpGImg:image>
+               </rdf:li>
+            </rdf:Alt>
+         </xmp:Thumbnails>
+         <xmpTPg:NPages>1</xmpTPg:NPages>
+         <xmpTPg:HasVisibleTransparency>False</xmpTPg:HasVisibleTransparency>
+         <xmpTPg:HasVisibleOverprint>False</xmpTPg:HasVisibleOverprint>
+         <xmpTPg:MaxPageSize rdf:parseType="Resource">
+            <stDim:w>320.941176</stDim:w>
+            <stDim:h>69.176471</stDim:h>
+            <stDim:unit>Pixels</stDim:unit>
+         </xmpTPg:MaxPageSize>
+         <xmpTPg:Fonts>
+            <rdf:Bag>
+               <rdf:li rdf:parseType="Resource">
+                  <stFnt:fontName>Gilroy-Medium</stFnt:fontName>
+                  <stFnt:fontFamily>Gilroy-Medium</stFnt:fontFamily>
+                  <stFnt:fontFace>☞</stFnt:fontFace>
+                  <stFnt:fontType>TrueType</stFnt:fontType>
+                  <stFnt:versionString>Version 1.000;PS 001.000;hotconv 1.0.88;makeotf.lib2.5.64775;com.myfonts.easy.radomir-tinkov.gilroy.medium.wfkit2.version.4BUR</stFnt:versionString>
+                  <stFnt:composite>False</stFnt:composite>
+                  <stFnt:fontFileName>Gilroy-Medium.ttf</stFnt:fontFileName>
+               </rdf:li>
+            </rdf:Bag>
+         </xmpTPg:Fonts>
+         <xmpTPg:PlateNames>
+            <rdf:Seq>
+               <rdf:li>Black</rdf:li>
+            </rdf:Seq>
+         </xmpTPg:PlateNames>
+         <xmpTPg:SwatchGroups>
+            <rdf:Seq>
+               <rdf:li rdf:parseType="Resource">
+                  <xmpG:groupName>Default Swatch Group</xmpG:groupName>
+                  <xmpG:groupType>0</xmpG:groupType>
+               </rdf:li>
+            </rdf:Seq>
+         </xmpTPg:SwatchGroups>
+         <illustrator:CreatorSubTool>Adobe Illustrator</illustrator:CreatorSubTool>
+         <pdf:Producer>Adobe PDF library 17.00</pdf:Producer>
+      </rdf:Description>
+   </rdf:RDF>
+</x:xmpmeta>
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                           
+<?xpacket end="w"?>
+  </metadata>
+</svg>
