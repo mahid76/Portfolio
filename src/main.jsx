@@ -6,11 +6,12 @@ import {
   RouterProvider,
 } from "react-router";
 import Navbar from './components/Navbar/Navbar';
+import Home from './components/Home/Home';
 
 const router = createBrowserRouter([
   {
     path: "/",
-    element: <Navbar></Navbar>
+    element: <Home></Home>,
   },
 ]);
 createRoot(document.getElementById('root')).render(
