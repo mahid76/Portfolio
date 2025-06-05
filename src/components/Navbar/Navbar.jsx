@@ -21,7 +21,7 @@ const Navbar = () => {
 		<div className="py-5 bg-black text-white ">
 			<Container>
 				<div className="flex justify-between items-center">
-					<div className="z-40">
+					<div className="">
 						<a href="#">
 							<Logo></Logo>
 						</a>
