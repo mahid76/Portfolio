@@ -17,17 +17,17 @@ import SplitText from "../ReactBits/SplitText";
 import Line from "../SVG/Line";
 
 
-
 const handleAnimationComplete = () => {
 	console.log("All letters have animated!");
 };
 AOS.init();
 
 const Home = () => {
+
 	return (
-		<div>
+		<div >
 			<Navbar></Navbar>
-			<section className="bg-black relative before:bg-[#d7d7d7]  pt-[30px]  z-[1] before:absolute before:h-[100%] before:w-[100%] before:z-[-1] before:top-0 before:left-0 before:[clip-path:polygon(0_0,56%_0,42%_100%,0_100%)]">
+			<section className="bg-black  relative overflow-hidden  before:bg-[#d7d7d7]  pt-[150px]  z-[1] before:absolute before:h-[100%] before:w-[100%] before:z-[-1] before:top-0 before:left-0 z- before:[clip-path:polygon(0_0,56%_0,42%_100%,0_100%)] ">
 				<div className="absolute top-0 left-0 bg-black w-full h-full z-[-10]">
 					<Silk
 						speed={5}
@@ -38,7 +38,7 @@ const Home = () => {
 					/>
 				</div>
 				<Container>
-					<div className="flex justify-between items-center">
+					<div className="my-auto  flex justify-between items-center">
 						<div className="">
 							<div className="title">
 								<h4 className="">
@@ -127,8 +127,9 @@ const Home = () => {
 								</a>
 							</div>
 						</div>
-						<div>
+						<div className="z-[99]">
 							<AnimatedContent
+							
 								distance={100}
 								direction="horizontal"
 								reverse={false}
@@ -138,19 +139,22 @@ const Home = () => {
 								animateOpacity
 								scale={1}
 								threshold={0.1}
-								delay={0.2}
+								delay={0.1}
 							>
 								<div>
-									<img className="h-[877px]" src={mahidPicture} alt="" />
+									<img className="h-[808px]" src={mahidPicture} alt="" />
 								</div>
 							</AnimatedContent>
 						</div>
 					</div>
 				</Container>
 			</section>
-			<Bio></Bio>
+			<div className="">
+				<Bio></Bio>
+			</div>
 		</div>
 	);
 };
 
 export default Home;
+

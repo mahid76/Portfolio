@@ -16,3 +16,7 @@
   src: url("../src/assets/Font/suisse-intl-regular.ttf") format("truetype");
 }
 
+html{
+  scroll-behavior: smooth;
+  scroll-snap-type: y mandatory;
+}

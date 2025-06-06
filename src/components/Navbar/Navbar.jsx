@@ -18,9 +18,9 @@ const Navbar = () => {
 	// ]
 
 	return (
-		<div className="py-5 bg-black text-white ">
+		<div className="py-3 bg-black text-white fixed z-[99999] w-full ">
 			<Container>
-				<div className="flex justify-between items-center">
+				<div className="flex justify-between  items-center">
 					<div className="">
 						<a href="#">
 							<Logo></Logo>
