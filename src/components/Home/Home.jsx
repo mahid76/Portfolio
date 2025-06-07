@@ -8,7 +8,7 @@ import {
 } from "react-icons/fa6";
 import { IoMail } from "react-icons/io5";
 import mahidPicture from "../../assets/mahidPicture.png";
-import Bio from "../Bio/Bio";
+// import Bio from "../Bio/Bio";
 import Container from "../Layout/Container";
 import Navbar from "../Navbar/Navbar";
 import AnimatedContent from "../ReactBits/AnimatedContent";
@@ -16,16 +16,14 @@ import Silk from "../ReactBits/Slik";
 import SplitText from "../ReactBits/SplitText";
 import Line from "../SVG/Line";
 
-
 const handleAnimationComplete = () => {
 	console.log("All letters have animated!");
 };
 AOS.init();
 
 const Home = () => {
-
 	return (
-		<div >
+		<div>
 			<Navbar></Navbar>
 			<section className="bg-black  relative overflow-hidden  before:bg-[#d7d7d7]  pt-[150px]  z-[1] before:absolute before:h-[100%] before:w-[100%] before:z-[-1] before:top-0 before:left-0 z- before:[clip-path:polygon(0_0,56%_0,42%_100%,0_100%)] ">
 				<div className="absolute top-0 left-0 bg-black w-full h-full z-[-10]">
@@ -74,7 +72,6 @@ const Home = () => {
 									/>
 								</h2>
 								<p className="tracking-wider font-secondary mt-3 text-2xl text-[#909090] font-bold">
-									
 									<SplitText
 										text="Front-end Developer"
 										className="tracking-wider font-secondary  text-2xl text-[#909090] font-bold text-center"
@@ -129,7 +126,6 @@ const Home = () => {
 						</div>
 						<div className="z-[99]">
 							<AnimatedContent
-							
 								distance={100}
 								direction="horizontal"
 								reverse={false}
@@ -148,13 +144,66 @@ const Home = () => {
 						</div>
 					</div>
 				</Container>
+
+				<div className="bg-black about  bottom-0 left-0  py-14">
+					<Container>
+						
+
+						<div  className="' max-w-[772px] ">
+
+							<SplitText
+										text={`"Let’s Build Something Great"`}
+										className="font-bold text-[30px]  text-white tracking-[20.54%] font-primary  "
+										delay={800}
+										duration={3}
+										ease="power3.out"
+										splitType="lines"
+										from={{ opacity: 0, y: 40 }}
+										to={{ opacity: 1, y: 0 }}
+										threshold={0.1}
+										rootMargin="150px"
+										textAlign="center"
+										onLetterAnimationComplete={handleAnimationComplete}
+									/>
+								
+
+
+
+						<SplitText
+										text={`	If you're looking for a developer who cares as much about design
+								as they do about functionality, let's connect. Whether you have
+								a startup idea or need help polishing your existing site, I’m
+								ready to help.`}
+										className="font-secondary tracking-wide text-[15px] text-white leading-[155.7%] mt-9 "
+										delay={100}
+										duration={3}
+										ease="power3.out"
+										splitType="lines"
+										from={{ opacity: 0, y: 40 }}
+										to={{ opacity: 1, y: 0 }}
+										threshold={0.1}
+										rootMargin="150px"
+										textAlign="center"
+										onLetterAnimationComplete={handleAnimationComplete}
+									/>
+							<p >
+							
+							</p>
+							<div className="flex  mt-[60px]">
+								<a href="#">
+									<p className="overflow-hidden text-sm font-bold  text-white bg-none rounded-2xl py-3 px-[34px] border-x border-x-white relative group hover:text-black z-10  duration-[400ms] ease-in-out">
+										More
+										<div className="w-0 h-0 bg-white absolute left-0 top-0 duration-[350ms] ease-in-out rounded-t-none rounded-l-none rounded-br-[100%]   group-hover:w-[100%] -z-10 group-hover:h-[100%]  "></div>
+										<div className="w-0 h-0 bg-white absolute right-0 bottom-0 duration-[450ms] ease-in-out rounded-tl-[180%] rounded-r-none rounded-b-none   group-hover:w-[100%] -z-10 group-hover:h-[100%]"></div>
+									</p>
+								</a>
+							</div>
+						</div>
+					</Container>
+				</div>
 			</section>
-			<div className="">
-				<Bio></Bio>
-			</div>
 		</div>
 	);
 };
 
 export default Home;
-
