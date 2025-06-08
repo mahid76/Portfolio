@@ -1,6 +1,6 @@
-import AOS from "aos";
 import "aos/dist/aos.css";
 import { ReactLenis } from "lenis/react";
+import { motion } from "motion/react";
 import { FaFacebook, FaGithub, FaLinkedin } from "react-icons/fa";
 import {
 	FaSquareInstagram,
@@ -11,23 +11,15 @@ import { IoMail } from "react-icons/io5";
 import mahidPicture from "../../assets/mahidPicture.png";
 import Container from "../Layout/Container";
 import Navbar from "../Navbar/Navbar";
-import AnimatedContent from "../ReactBits/AnimatedContent";
 import Silk from "../ReactBits/Slik";
 import SplitText from "../ReactBits/SplitText";
 import Line from "../SVG/Line";
-import {useState} from 'react'
-import Modal from "../Modal/Modal";
-
 
 const handleAnimationComplete = () => {
-	
 	console.log("All letters have animated!");
 };
-AOS.init();
 
 const Home = () => {
-	const [open, setOpen] = useState(false);
-
 	return (
 		<ReactLenis root>
 			<div className="scroll-smooth">
@@ -131,24 +123,14 @@ const Home = () => {
 									</a>
 								</div>
 							</div>
-							<div className="z-[99]">
-								<AnimatedContent
-									distance={100}
-									direction="horizontal"
-									reverse={false}
-									duration={3}
-									ease="power3.out"
-									initialOpacity={0}
-									animateOpacity
-									scale={1}
-									threshold={0.1}
-									delay={0.1}
-								>
-									<div>
-										<img className="h-[808px]" src={mahidPicture} alt="" />
-									</div>
-								</AnimatedContent>
-							</div>
+							<motion.div
+								initial={{ opacity: 0 }}
+								animate={{ opacity: 1 }}
+								transition={{ duration: 1, delay: 0.3 }}
+								className="z-[99]"
+							>
+								<img className="h-[808px]" src={mahidPicture} alt="" />
+							</motion.div>
 						</div>
 					</Container>
 
@@ -189,7 +171,7 @@ const Home = () => {
 								/>
 								<p></p>
 								<div className="flex  mt-[60px]">
-									<a onClick={()=> setOpen(true)} href="#">
+									<a href="#">
 										<p className="overflow-hidden text-sm font-bold  text-white bg-none rounded-2xl py-3 px-[34px] border-x border-x-white relative group hover:text-black z-10  duration-[400ms] ease-in-out">
 											About Me
 											<div className="w-0 h-0 bg-white absolute left-0 top-0 duration-[350ms] ease-in-out rounded-t-none rounded-l-none rounded-br-[100%]   group-hover:w-[100%] -z-10 group-hover:h-[100%]  "></div>
@@ -198,11 +180,6 @@ const Home = () => {
 									</a>
 								</div>
 							</div>
-							<div className="block">
-												<Modal open={open} onClose={()=> setOpen(false)}> 
-									<h1 className="text-red-500 mx-auto">hi</h1>
-											</Modal>
-											</div>
 						</Container>
 					</div>
 				</section>
