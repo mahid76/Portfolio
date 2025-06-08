@@ -42,10 +42,10 @@ const SkillsPart = () => {
 			initial={{ opacity: 0 }}
 			animate={{ opacity: 1 }}
 			transition={{ duration: 0.8, delay: 0.3 }}
-			className="absolute top-1/2 transform right-0 w-[360px] items-center -translate-y-1/2 flex justify-between "
+			className="absolute top-1/2 transform right-4 w-[380px] items-center -translate-y-1/2 flex justify-between "
 		>
 			<motion.h1
-				initial={{ rotate: 0, letterSpacing: "0"  }}
+				initial={{ rotate: 0, letterSpacing: "0" }}
 				animate={{ rotate: -90, letterSpacing: "0.1em" }}
 				transition={{ duration: 0.8, delay: 2 }}
 				className="text-white text-5xl font-primary tracking-widest  "
@@ -53,12 +53,14 @@ const SkillsPart = () => {
 				My Skills
 			</motion.h1>
 			<div className="  items-end   flex flex-col  gap-6 ">
+			
 				{skills.map((item, index) => (
 					<div
 						key={index}
-						className="group flex items-center  bg-gray-100 rounded-full shadow overflow-hidden transition-all duration-300 ease-in-out w-15 hover:w-40 cursor-pointer"
+						className="group flex items-center  bg-gray-100 rounded-full shadow overflow-hidden transition-all duration-300 ease-in-out w-15 hover:w-45 cursor-pointer"
 					>
-						<div className="flex gap-2 items-center ">
+						<div className="flex gap-2 items-center  ">
+								
 							<div className="  text-6xl text-black-600">{item.icon}</div>
 							<h3 className="opacity-0 group-hover:opacity-100 transition-opacity duration-300 ml-2 whitespace-nowrap text-black font-medium">
 								{item.skill}

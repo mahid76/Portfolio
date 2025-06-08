@@ -19,16 +19,16 @@ const Navbar = () => {
 	//   }
 	// ]
 
-	// const [open, setOpen] = useState(false);
+
 
 	return (
 		<div className="py-3 scroll-smooth bg-black text-white fixed z-[99999] w-full ">
 			<Container>
 				<div className="flex justify-between  items-center">
 					<div className="">
-						<a href="#">
+						<Link to={"/"}>
 							<Logo></Logo>
-						</a>
+						</Link>
 					</div>
 					<div className="flex justify-between items-center">
 						<ul className="flex font-secondary text-lg gap-x-15">
@@ -38,17 +38,14 @@ const Navbar = () => {
 							</Link>
 							<Link
 								to={"/AboutMe"}
-								// onClick={() => setOpen(true)}
+							
 								className="relative group"
 							>
 								<li>About me</li>
 								<div className="absolute -left-3 group-hover:h-full group-hover:w-[2px] ease-in-out  duration-250 top-1/2 transform -translate-y-1/2  h-[2px] w-[0px] bg-white"></div>
 							</Link>
 
-							{/* <Link  className="relative group"  >
-								<li>Skills</li>
-								<div className="absolute -left-3 group-hover:h-full group-hover:w-[2px] ease-in-out  duration-250 top-1/2 transform -translate-y-1/2  h-[2px] w-[0px] bg-white"></div>
-							</Link> */}
+						
 							<Link  className="relative group"  >
 								<li>Portfolio</li>
 								<div className="absolute -left-3 group-hover:h-full group-hover:w-[2px] ease-in-out  duration-250 top-1/2 transform -translate-y-1/2  h-[2px] w-[0px] bg-white"></div>
