@@ -2,6 +2,7 @@ import { ReactLenis } from "lenis/react";
 import Container from "../Layout/Container";
 import Navbar from "../Navbar/Navbar";
 import Aurora from "../ReactBits/Aurora";
+import SkillsPart from "../SkillsPart/SkillsPart";
 
 const AboutMe = () => {
 	return (
@@ -59,17 +60,8 @@ const AboutMe = () => {
 						</div>
             </div>
 					</Container>
-          <div className="z-10"> 
-            <ul className="text-white text-5xl">
-             <h1 className="text-white text-5xl">hi</h1>
-             <h1>hi</h1>
-             <h1>hi</h1>
-             <h1>hi</h1>
-             <h1>hi</h1>
-             <h1>hi</h1>
-             <h1>hi</h1>
-             <h1>hi</h1>
-            </ul>
+          <div className="z-[99999] "> 
+						<SkillsPart></SkillsPart>
           </div>
 				</section>
 			</div>
