@@ -1,7 +1,7 @@
 import { ReactLenis } from "lenis/react";
 import { BiRightTopArrowCircle } from "react-icons/bi";
-import cleaning from "../../assets/cleaning.jpg";
 import agenc from "../../assets/agenc.jpg";
+import cleaning from "../../assets/cleaning.jpg";
 import innovate from "../../assets/innovate.jpg";
 import Container from "../Layout/Container";
 import Navbar from "../Navbar/Navbar";
@@ -10,33 +10,35 @@ import TiltedCard from "../ReactBits/TiltedCard";
 const Projects = () => {
 	const projects = [
 		{
-			name: "Cleaning",
-			year: "Jan2025",
-			align: "right",
-			link: "#",
-			code:"https://github.com/mahid76",
-			image: agenc,
-
-		},
-		{
-			name: "Agence",
-			year: "Feb2025",
-			align: "left",
-			link: "#",
-			image: cleaning,
-		},
-		{
 			name: "Innovate",
 			year: "Mar2025",
 			align: "right",
 			link: "#",
+			code: "https://github.com/mahid76/Innovate_React_01",
 			image: innovate,
+		},
+		{
+			name: "Agenc",
+			year: "Jan2025",
+			align: "left",
+			link: "https://mahid76.github.io/Agenc_Project02_CIT/",
+			code: "https://github.com/mahid76/Agenc_Project02_CIT",
+			image: agenc,
+		},
+		{
+			name: "Cleaing",
+			year: "Feb2025",
+			align: "right",
+			link: "https://mahid76.github.io/Cleaning_Project01_CIT/",
+			code: "https://github.com/mahid76/Cleaning_Project01_CIT",
+			image: cleaning,
 		},
 		{
 			name: "Portfolio",
 			year: "Apr2025",
 			align: "left",
 			link: "#",
+			code: "https://github.com/mahid76",
 			image: agenc,
 		},
 	];
@@ -91,6 +93,7 @@ const Projects = () => {
 												{item.year}
 											</p>
 											<a
+												target="_blank"
 												href={item.link}
 												className={`text-lg gap-2 font-secondary tracking-wide flex items-center text-cyan-300 opacity-80 hover:opacity-100
 											 transition-all duration-500 cursor-pointer sm:justify-self-center ${
@@ -103,6 +106,7 @@ const Projects = () => {
 												<BiRightTopArrowCircle />
 											</a>
 											<a
+												target="_blank"
 												href={item.code}
 												className={`text-lg gap-2 font-secondary tracking-wide flex items-center text-cyan-300  opacity-80 hover:opacity-100
 											 transition-all duration-500 cursor-pointer sm:justify-self-center ${
@@ -115,7 +119,7 @@ const Projects = () => {
 												<BiRightTopArrowCircle />
 											</a>
 										</div>
-										
+
 										{/* <div className=" rounded-xl overflow-hidden hover:scale-110  transform transition-all duration-500 relative  ">
 											<div className="w-full h-full opacity-50 bg-black/80 top-0 left-0 hover:opacity-0 absolute transition-all duration-500 md:block sm:hidden"></div>
 											
@@ -127,25 +131,25 @@ const Projects = () => {
 												/>
 											</div>
 										</div> */}
+										<a target="_blank"
+												href={item.link}>
+
 										<TiltedCard
-												imageSrc={item.image}
-												altText="projects"
-												captionText="Live"
-												containerHeight="220px"
-												containerWidth="400px"
-												imageHeight="220px"
-												imageWidth="400px"
-												rotateAmplitude={12}
-												scaleOnHover={1.1}
-												showMobileWarning={false}
-												showTooltip={true}
-												displayOverlayContent={true}
-												overlayContent={
-													<p className="tilted-card-demo-text">
-														
-													</p>
-												}
-											/>
+											imageSrc={item.image}
+											altText="projects"
+											captionText="Live"
+											containerHeight="220px"
+											containerWidth="400px"
+											imageHeight="220px"
+											imageWidth="400px"
+											rotateAmplitude={12}
+											scaleOnHover={1.1}
+											showMobileWarning={false}
+											showTooltip={true}
+											displayOverlayContent={true}
+											overlayContent={<p className="tilted-card-demo-text"></p>}
+										/>
+										</a>
 									</div>
 								))}
 							</div>
