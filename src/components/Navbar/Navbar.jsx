@@ -41,13 +41,13 @@ const Navbar = () => {
 							
 								className="relative group"
 							>
-								<li>About me</li>
+								<li>About & Skills</li>
 								<div className="absolute -left-3 group-hover:h-full group-hover:w-[2px] ease-in-out  duration-250 top-1/2 transform -translate-y-1/2  h-[2px] w-[0px] bg-white"></div>
 							</Link>
 
 						
-							<Link  className="relative group"  >
-								<li>Portfolio</li>
+							<Link to={"/Projects"}  className="relative group"  >
+								<li>Projects</li>
 								<div className="absolute -left-3 group-hover:h-full group-hover:w-[2px] ease-in-out  duration-250 top-1/2 transform -translate-y-1/2  h-[2px] w-[0px] bg-white"></div>
 							</Link>
 						</ul>

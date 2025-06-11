@@ -5,9 +5,9 @@ import {
   createBrowserRouter,
   RouterProvider,
 } from "react-router";
-// import Navbar from './components/Navbar/Navbar';
 import Home from './components/Home/Home';
 import AboutMe from './components/AboutMe/AboutMe';
+import Projects from './components/Projects/Projects';
 
 const router = createBrowserRouter([
   {
@@ -17,6 +17,10 @@ const router = createBrowserRouter([
   {
     path: "/AboutMe",
     element: <AboutMe></AboutMe>,
+  },
+  {
+    path: "/Projects",
+    element: <Projects></Projects>,
   },
 ]);
 createRoot(document.getElementById('root')).render(
