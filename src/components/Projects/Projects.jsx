@@ -20,7 +20,7 @@ const Projects = () => {
 			name: "Innovate",
 			year: "Mar2025",
 			align: "right",
-			link: "#",
+			link: "https://innovate-react-01-git-main-md-mahidul-islams-projects.vercel.app/",
 			code: "https://github.com/mahid76/Innovate_React_01",
 			image: innovate,
 		},
@@ -33,7 +33,7 @@ const Projects = () => {
 			image: agenc,
 		},
 		{
-			name: "Cleaing",
+			name: "Cleaning",
 			year: "Feb2025",
 			align: "right",
 			link: "https://mahid76.github.io/Cleaning_Project01_CIT/",
@@ -96,10 +96,14 @@ const Projects = () => {
 										} justify-end `}
 									>
 										<motion.div
-											initial={{ opacity: 0 ,  x: item.align === "right" ? -100 : 100 }}
+											initial={{
+												opacity: 0,
+												x: item.align === "right" ? -100 : 100,
+											}}
 											whileInView={{
-												opacity: 1, x:0,
-												transition: { duration: 0.8, delay:0.5 },
+												opacity: 1,
+												x: 0,
+												transition: { duration: 0.8, delay: 0.5 },
 											}}
 										>
 											<h2 className="text-white font-medium tracking-wider font-primary sm:text-2xl ">
@@ -142,12 +146,19 @@ const Projects = () => {
 											</a>
 										</motion.div>
 
-								
-										<motion.a initial={{ opacity: 0 ,  x: item.align === "right" ? -100 : 100 }}
+										<motion.a
+											initial={{
+												opacity: 0,
+												x: item.align === "right" ? -100 : 100,
+											}}
 											whileInView={{
-												opacity: 1, x:0,
-												transition: { duration: 0.8, delay:0.5 },
-											}} target="_blank" href={item.link}>
+												opacity: 1,
+												x: 0,
+												transition: { duration: 0.8, delay: 0.5 },
+											}}
+											target="_blank"
+											href={item.link}
+										>
 											<TiltedCard
 												imageSrc={item.image}
 												altText="projects"
