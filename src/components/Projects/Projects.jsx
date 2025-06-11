@@ -1,10 +1,12 @@
 import { ReactLenis } from "lenis/react";
 import { BiRightTopArrowCircle } from "react-icons/bi";
-import agenc from "../../assets/innovate.jpg";
+import cleaning from "../../assets/cleaning.jpg";
+import agenc from "../../assets/agenc.jpg";
+import innovate from "../../assets/innovate.jpg";
 import Container from "../Layout/Container";
 import Navbar from "../Navbar/Navbar";
 import Aurora from "../ReactBits/Aurora";
-
+import TiltedCard from "../ReactBits/TiltedCard";
 const Projects = () => {
 	const projects = [
 		{
@@ -12,25 +14,27 @@ const Projects = () => {
 			year: "Jan2025",
 			align: "right",
 			link: "#",
+			code:"https://github.com/mahid76",
 			image: agenc,
+
 		},
 		{
 			name: "Agence",
-			year: "Jan2025",
+			year: "Feb2025",
 			align: "left",
 			link: "#",
-			image: agenc,
+			image: cleaning,
 		},
 		{
 			name: "Innovate",
-			year: "Jan2025",
+			year: "Mar2025",
 			align: "right",
 			link: "#",
-			image: agenc,
+			image: innovate,
 		},
 		{
 			name: "Portfolio",
-			year: "Jan2025",
+			year: "Apr2025",
 			align: "left",
 			link: "#",
 			image: agenc,
@@ -67,7 +71,7 @@ const Projects = () => {
 							<div className="">
 								{projects.map((item) => (
 									<div
-										className={`flex w-full mt-20 sm:flex-col-reverse items-center gap-8 ${
+										className={`flex w-full mt-20 sm:flex-col-reverse items-center gap-15 ${
 											item.align === "left"
 												? "md:flex-row"
 												: "md:flex-row-reverse"
@@ -99,8 +103,8 @@ const Projects = () => {
 												<BiRightTopArrowCircle />
 											</a>
 											<a
-												href={item.link}
-												className={`text-lg gap-2 font-secondary tracking-wide flex items-center text-cyan-300 text-cyan-300 opacity-80 hover:opacity-100
+												href={item.code}
+												className={`text-lg gap-2 font-secondary tracking-wide flex items-center text-cyan-300  opacity-80 hover:opacity-100
 											 transition-all duration-500 cursor-pointer sm:justify-self-center ${
 													item.align === "left"
 														? "md:justify-self-end"
@@ -111,8 +115,10 @@ const Projects = () => {
 												<BiRightTopArrowCircle />
 											</a>
 										</div>
-										<div className="max-h-[220px] max-w-[400px] rounded-xl overflow-hidden hover:scale-110  transform transition-all duration-500 relative border border-white ">
+										
+										{/* <div className=" rounded-xl overflow-hidden hover:scale-110  transform transition-all duration-500 relative  ">
 											<div className="w-full h-full opacity-50 bg-black/80 top-0 left-0 hover:opacity-0 absolute transition-all duration-500 md:block sm:hidden"></div>
+											
 											<div>
 												<img
 													className="w-full h-full "
@@ -120,7 +126,26 @@ const Projects = () => {
 													alt="projectImage"
 												/>
 											</div>
-										</div>
+										</div> */}
+										<TiltedCard
+												imageSrc={item.image}
+												altText="projects"
+												captionText="Live"
+												containerHeight="220px"
+												containerWidth="400px"
+												imageHeight="220px"
+												imageWidth="400px"
+												rotateAmplitude={12}
+												scaleOnHover={1.1}
+												showMobileWarning={false}
+												showTooltip={true}
+												displayOverlayContent={true}
+												overlayContent={
+													<p className="tilted-card-demo-text">
+														
+													</p>
+												}
+											/>
 									</div>
 								))}
 							</div>
