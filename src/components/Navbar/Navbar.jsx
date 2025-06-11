@@ -10,7 +10,7 @@ const Navbar = () => {
 				<motion.div initial={{ opacity: 0, y: -100 }}
 							animate={{ opacity: 1, y: 0 }}
 							transition={{
-								duration: 0.6,
+								duration: 0.3,
 								delay: 0.1,
 								type: "spring",
 								stiffness: 80,
@@ -59,39 +59,3 @@ const Navbar = () => {
 
 export default Navbar;
 
-// <div className="block ">
-// 	<Modal open={open} onClose={() => setOpen(false)}>
-// 		<div className="pt-7  flex flex-col justify-center px-4">
-// 			<h2 className="tracking-wider font-bold font-primary leading-20 text-4xl  text-black">About Mahidul</h2>
-// 		<div className="max-w-[470px] text-justify">
-
-// 			<p className="text-[#7b7a7a] tracking-wide font-secondary  text-[15px]  font-medium">
-// 			Growing up, I was always curious about how things
-// 			worked—especially on screens. That curiosity led me into the world
-// 			of web development, where creativity meets logic. As I explored
-// 			more, I realized that crafting interfaces wasn't just about how
-// 			things look, but how they feel. That’s where I found my passion:
-// 			front-end development.
-// 		</p>
-// 		<p className="text-[#7b7a7a] tracking-wide font-secondary my-4 text-[15px]  font-medium">
-// 			Over the years, I’ve been refining my skills in building
-// 			responsive, accessible, and visually engaging websites. I enjoy
-// 			transforming designs into real products using modern tools like
-// 			React, Tailwind CSS, and GSAP, while also caring deeply about
-// 			performance and user experience.
-// 		</p>
-// 		<p className="text-[#7b7a7a] tracking-wide font-secondary  text-[15px]  font-medium">
-// 			What drives me most is the challenge of turning ideas into
-// 			reality, pixel by pixel. Whether it's building a personal site,
-// 			contributing to open-source, or collaborating with a team—I bring
-// 			a strong eye for detail, a love for clean code, and a desire to
-// 			constantly improve.
-// 		</p>
-// 		<div className="mt-8   ">
-// 			<img  className=" w-[120px]" src={Mysign} alt="mySign" />
-// 		</div>
-// 		</div>
-
-// 		</div>
-// 	</Modal>
-// </div>
