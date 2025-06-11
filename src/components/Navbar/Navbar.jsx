@@ -7,15 +7,7 @@ const Navbar = () => {
 	return (
 		<div className="py-3 scroll-smooth bg-black text-white fixed z-[99999] w-full ">
 			<Container>
-				<div className="flex justify-between  items-center">
-					<div className="">
-						<Link to={"/"}>
-							<Logo></Logo>
-						</Link>
-					</div>
-					<div className="flex justify-between items-center">
-						<motion.ul
-							initial={{ opacity: 0, y: -100 }}
+				<motion.div initial={{ opacity: 0, y: -100 }}
 							animate={{ opacity: 1, y: 0 }}
 							transition={{
 								duration: 0.6,
@@ -23,7 +15,15 @@ const Navbar = () => {
 								type: "spring",
 								stiffness: 80,
 								damping: 20,
-							}}
+							}} className="flex justify-between  items-center">
+					<div className="">
+						<Link to={"/"}>
+							<Logo></Logo>
+						</Link>
+					</div>
+					<div className="flex justify-between items-center">
+						<ul
+						
 							className="flex font-secondary text-lg gap-x-15"
 						>
 							<Link to={"/"} className="relative group">
@@ -39,17 +39,9 @@ const Navbar = () => {
 								<li>Projects</li>
 								<div className="absolute -left-3 group-hover:h-full group-hover:w-[2px] ease-in-out  duration-250 top-1/2 transform -translate-y-1/2  h-[2px] w-[0px] bg-white"></div>
 							</Link>
-						</motion.ul>
-						<motion.div
-							initial={{ opacity: 0, y: -100 }}
-							animate={{ opacity: 1, y: 0 }}
-							transition={{
-								duration: 0.6,
-								delay: 0.1,
-								type: "spring",
-								stiffness: 80,
-								damping: 20,
-							}}
+						</ul>
+						<div
+						
 						>
 							<a href="#">
 								<p class="bg-neutral-950 text-neutral-10000 border border-neutral-400 border-b-3 font-medium overflow-hidden relative px-8 py-[9px] rounded-lg hover:brightness-150   ml-12 active:opacity-75 font-secondary text-lg outline-none duration-300 group">
@@ -57,9 +49,9 @@ const Navbar = () => {
 									Contact
 								</p>
 							</a>
-						</motion.div>
+						</div>
 					</div>
-				</div>
+				</motion.div>
 			</Container>
 		</div>
 	);
