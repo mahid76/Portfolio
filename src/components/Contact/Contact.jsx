@@ -35,7 +35,7 @@ const Contact = () => {
 							className="tracking-wider font-bold font-primary leading-20 text-4xl    text-white max-w-[600px] mx-auto"
 						/>
 						<BlurText
-							text="	Feel free to reach out to us! Whether you have a question,
+							text="Feel free to reach out to us! Whether you have a question,
 								feedback, or a collaboration proposal, we'd love to hear from
 								you."
 							delay={30}
