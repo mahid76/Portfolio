@@ -21,7 +21,7 @@ const AboutMe = () => {
 					/>
 				</div>
 				<Navbar></Navbar>
-				<section className=" py-15  md:h-screen flex items-center  ">
+				<section className=" pt-15   md:h-screen flex items-center md:flex-row flex-col ">
 					<Container>
 						<div className="">
 							<motion.div
