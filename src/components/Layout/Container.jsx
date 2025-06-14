@@ -2,7 +2,7 @@ import React from 'react'
 
 const Container = ({children}) => {
   return (
-    <div className='md:max-w-[1320px] overflow-hidden md:mx-auto relative px-5 md:px-0 '>
+    <div className='md:w-[1320px] overflow-hidden md:mx-auto relative px-5 md:px-0 '>
       {children}
     </div>
   )
