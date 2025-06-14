@@ -1,13 +1,11 @@
 import "aos/dist/aos.css";
 import { ReactLenis } from "lenis/react";
 import { motion } from "motion/react";
-import { FaFacebook, FaGithub, FaLinkedin } from "react-icons/fa";
-import {
-	FaSquareInstagram,
-	FaSquareWhatsapp,
-	FaSquareXTwitter,
-} from "react-icons/fa6";
-import { IoMail } from "react-icons/io5";
+import { BsWhatsapp } from "react-icons/bs";
+import { FaFacebook, FaGithub, FaLinkedinIn } from "react-icons/fa";
+import { FaXTwitter } from "react-icons/fa6";
+import { IoLogoInstagram } from "react-icons/io";
+import { MdEmail } from "react-icons/md";
 import { Link } from "react-router";
 import mahidPicture from "../../assets/mahidPicture.png";
 import Container from "../Layout/Container";
@@ -25,7 +23,7 @@ const Home = () => {
 		<ReactLenis root>
 			<div className="scroll-smooth">
 				<Navbar></Navbar>
-				<section className="bg-black  relative overflow-hidden before:bg-black/50 md:before:bg-[#d7d7d7] pt-[113px] md:pt-[150px]  z-[1] before:absolute before:h-[100%] before:w-[100%] md:before:z-[-1] before:z-[2]   before:bottom-0 before:right-0 md:before:top-0 md:before:left-0 z- before:[clip-path:polygon(0%_75%,100%_55%,100%_100%,0_100%)]  md:before:[clip-path:polygon(0_0,56%_0,42%_100%,0_100%)] ">
+				<section className="bg-black relative overflow-hidden  md:before:bg-[#d7d7d7] pt-[195px] md:pt-[150px]  z-[1] before:absolute before:h-full before:w-full md:before:z-[-1] before:z-[2] before:bg-black/50  before:bottom-0 before:right-0 md:before:top-0 md:before:left-0 z- before:[clip-path:polygon(0%_75%,100%_55%,100%_100%,0_100%)]  md:before:[clip-path:polygon(0_0,56%_0,42%_100%,0_100%)] ">
 					<div className="absolute top-0 left-0  w-full h-full z-[-10]">
 						<Silk
 							speed={5}
@@ -36,7 +34,7 @@ const Home = () => {
 						/>
 					</div>
 					<Container>
-						<div className="my-auto relative flex md:flex-row flex-col-reverse md:justify-between md:items-center">
+						<div className=" relative flex justify-end items-end   md:justify-between md:items-center">
 							<div className=" ">
 								<div className="title md:static absolute bottom-11 left-0 z-[10] md:z-0">
 									<h4 className="">
@@ -91,27 +89,27 @@ const Home = () => {
 								<div className="mt-[100px] hidden  md:static absolute md:flex justify-center">
 									<Line></Line>
 								</div>
-								<div className="flex md:flex-row flex-col  md:mt-[80px] md:static gap-y-2 md:gap-y-0 mb-4 md:justify-between absolute bottom-0 right-0 z-[2] md:z-0">
+								<div className="flex md:flex-row flex-col  md:mt-[80px] md:static gap-y-3 md:gap-y-0 mb-4 md:justify-between absolute bottom-0 right-0 z-[2] md:z-0">
 									<a href="mailto:mahidulislamsohan76@gmail.com">
-										<IoMail className="hover:scale-125 duration-200 size-[25px] md:size-[40px] shadow-[0_8px_30px_rgb(0,0,0,0.25)] px-[2px] md:px-2  text-black  bg-white md:bg-[#c4c4c4] rounded-md  md:rounded-[10px] " />
+										<MdEmail className="hover:scale-125 duration-200 size-[25px] md:size-[40px] shadow-md px-[2px] md:px-2  text-black  bg-white md:bg-[#c4c4c4] rounded-md  md:rounded-[10px] " />
 									</a>
 									<a href="https://www.linkedin.com/in/md-mahidul-islam-poblaaa/">
-										<FaLinkedin className="hover:scale-125 duration-200 size-[25px] md:size-[40px] shadow-[0_8px_30px_rgb(0,0,0,0.25)] px-[2px] md:px-2  text-black  bg-white md:bg-[#c4c4c4] rounded-md  md:rounded-[10px] " />
+										<FaLinkedinIn className="hover:scale-125 duration-200 size-[25px] md:size-[40px] shadow-md px-[2px] md:px-2  text-black  bg-white md:bg-[#c4c4c4] rounded-md  md:rounded-[10px] " />
 									</a>
 									<a href="https://www.facebook.com/jerrypoblaaa">
-										<FaFacebook className="hover:scale-125 duration-200 size-[25px] md:size-[40px] shadow-[0_8px_30px_rgb(0,0,0,0.25)] px-[2px] md:px-2  text-black  bg-white md:bg-[#c4c4c4] rounded-md  md:rounded-[10px] " />
+										<FaFacebook className="hover:scale-125 duration-200 size-[25px] md:size-[40px] shadow-md px-[2px] md:px-2  text-black  bg-white md:bg-[#c4c4c4] rounded-md  md:rounded-[10px] " />
 									</a>
 									<a href="#">
-										<FaSquareInstagram className="hover:scale-125 duration-200 size-[25px] md:size-[40px] shadow-[0_8px_30px_rgb(0,0,0,0.25)] px-[2px] md:px-2  text-black  bg-white md:bg-[#c4c4c4] rounded-md  md:rounded-[10px] " />
+										<IoLogoInstagram className="hover:scale-125 duration-200 size-[25px] md:size-[40px] shadow-md px-[2px] md:px-2  text-black  bg-white md:bg-[#c4c4c4] rounded-md  md:rounded-[10px] " />
 									</a>
 									<a href="tel:+8801601117731">
-										<FaSquareWhatsapp className="hover:scale-125 duration-200 size-[25px] md:size-[40px] shadow-[0_8px_30px_rgb(0,0,0,0.25)] px-[2px] md:px-2  text-black  bg-white md:bg-[#c4c4c4] rounded-md  md:rounded-[10px] " />
+										<BsWhatsapp className="hover:scale-125 duration-200 size-[25px] md:size-[40px] shadow-md px-[2px] md:px-2  text-black  bg-white md:bg-[#c4c4c4] rounded-md  md:rounded-[10px] " />
 									</a>
 									<a href="https://github.com/mahid76">
-										<FaGithub className="hover:scale-125 duration-200 size-[25px] md:size-[40px] shadow-[0_8px_30px_rgb(0,0,0,0.25)] px-[2px] md:px-2  text-black  bg-white md:bg-[#c4c4c4] rounded-md  md:rounded-[10px] " />
+										<FaGithub className="hover:scale-125 duration-200 size-[25px] md:size-[40px] shadow-md px-[2px] md:px-2  text-black  bg-white md:bg-[#c4c4c4] rounded-md  md:rounded-[10px] " />
 									</a>
 									<a href="#">
-										<FaSquareXTwitter className="hover:scale-125 duration-200 size-[25px] md:size-[40px] shadow-[0_8px_30px_rgb(0,0,0,0.25)] px-[2px] md:px-2  text-black  bg-white md:bg-[#c4c4c4] rounded-md  md:rounded-[10px] " />
+										<FaXTwitter className="hover:scale-125 duration-200 size-[25px] md:size-[40px] shadow-md px-[2px] md:px-2  text-black  bg-white md:bg-[#c4c4c4] rounded-md  md:rounded-[10px] " />
 									</a>
 								</div>
 								<div className="flex justify-center md:static  md:mt-[80px]  bottom-3 left-0 z-[2] absolute">
@@ -128,10 +126,10 @@ const Home = () => {
 								initial={{ opacity: 0 }}
 								animate={{ opacity: 1 }}
 								transition={{ duration: 1, delay: 0.3 }}
-								className="md:z-[1] "
+								className="md:z-[1]  "
 							>
 								<img
-									className=" transform translate-x-[22%] md:translate-0  md:h-[808px]"
+									className="z-20 transform  translate-x-20 md:translate-x-0 object-contain md:object-fill  max-h-[808px]  "
 									src={mahidPicture}
 									alt=""
 								/>
