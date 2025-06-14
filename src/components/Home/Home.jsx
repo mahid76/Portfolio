@@ -90,25 +90,60 @@ const Home = () => {
 									<Line></Line>
 								</div>
 								<div className="flex md:flex-row flex-col  md:mt-[80px] md:static gap-y-3 md:gap-y-0 mb-4 md:justify-between absolute bottom-0 right-0 z-[2] md:z-0">
-									<motion.a href="mailto:mahidulislamsohan76@gmail.com">
+									<motion.a
+										initial={{ opacity: 0 }}
+										whileInView={{ opacity: 1 }}
+										transition={{ duration: 1, delay: 0.3 }}
+										href="mailto:mahidulislamsohan76@gmail.com"
+									>
 										<MdEmail className="hover:scale-125 duration-200 size-[25px] md:size-[40px] shadow-md px-[2px] md:px-2  text-black  bg-white md:bg-[#c4c4c4] rounded-md  md:rounded-[10px] " />
 									</motion.a>
-									<motion.a href="https://www.linkedin.com/in/md-mahidul-islam-poblaaa/">
+									<motion.a
+										initial={{ opacity: 0 }}
+										whileInView={{ opacity: 1 }}
+										transition={{ duration: 1, delay: 0.4 }}
+										href="https://www.linkedin.com/in/md-mahidul-islam-poblaaa/"
+									>
 										<FaLinkedinIn className="hover:scale-125 duration-200 size-[25px] md:size-[40px] shadow-md px-[2px] md:px-2  text-black  bg-white md:bg-[#c4c4c4] rounded-md  md:rounded-[10px] " />
 									</motion.a>
-									<motion.a href="https://www.facebook.com/jerrypoblaaa">
+									<motion.a
+										initial={{ opacity: 0 }}
+										whileInView={{ opacity: 1 }}
+										transition={{ duration: 1, delay: 0.5 }}
+										href="https://www.facebook.com/jerrypoblaaa"
+									>
 										<FaFacebook className="hover:scale-125 duration-200 size-[25px] md:size-[40px] shadow-md px-[2px] md:px-2  text-black  bg-white md:bg-[#c4c4c4] rounded-md  md:rounded-[10px] " />
 									</motion.a>
-									<motion.a href="#">
+									<motion.a
+										initial={{ opacity: 0 }}
+										whileInView={{ opacity: 1 }}
+										transition={{ duration: 1, delay: 0.6 }}
+										href="#"
+									>
 										<IoLogoInstagram className="hover:scale-125 duration-200 size-[25px] md:size-[40px] shadow-md px-[2px] md:px-2  text-black  bg-white md:bg-[#c4c4c4] rounded-md  md:rounded-[10px] " />
 									</motion.a>
-									<motion.a href="tel:+8801601117731">
+									<motion.a
+										initial={{ opacity: 0 }}
+										whileInView={{ opacity: 1 }}
+										transition={{ duration: 1, delay: 0.7 }}
+										href="tel:+8801601117731"
+									>
 										<BsWhatsapp className="hover:scale-125 duration-200 size-[25px] md:size-[40px] shadow-md px-[2px] md:px-2  text-black  bg-white md:bg-[#c4c4c4] rounded-md  md:rounded-[10px] " />
 									</motion.a>
-									<motion.a href="https://github.com/mahid76">
+									<motion.a
+										initial={{ opacity: 0 }}
+										whileInView={{ opacity: 1 }}
+										transition={{ duration: 1, delay: 0.8 }}
+										href="https://github.com/mahid76"
+									>
 										<FaGithub className="hover:scale-125 duration-200 size-[25px] md:size-[40px] shadow-md px-[2px] md:px-2  text-black  bg-white md:bg-[#c4c4c4] rounded-md  md:rounded-[10px] " />
 									</motion.a>
-									<motion.a href="#">
+									<motion.a
+										initial={{ opacity: 0 }}
+										whileInView={{ opacity: 1 }}
+										transition={{ duration: 1, delay: 0.9 }}
+										href="#"
+									>
 										<FaXTwitter className="hover:scale-125 duration-200 size-[25px] md:size-[40px] shadow-md px-[2px] md:px-2  text-black  bg-white md:bg-[#c4c4c4] rounded-md  md:rounded-[10px] " />
 									</motion.a>
 								</div>
@@ -141,16 +176,16 @@ const Home = () => {
 					<Container>
 						<div className="' max-w-[772px] ">
 							<motion.p
-								initial={{ opacity: 0, y:40 }}
-								whileInView={{ opacity: 1, y:0 }}
+								initial={{ opacity: 0, y: 40 }}
+								whileInView={{ opacity: 1, y: 0 }}
 								transition={{ duration: 1, delay: 0.3 }}
 								className="font-bold text-lg md:text-[30px]  text-white tracking-[20.54%] font-primary  "
 							>
 								"Let’s Build Something Great"
 							</motion.p>
 							<motion.p
-								initial={{ opacity: 0,y:40 }}
-								whileInView={{ opacity: 1, y:0 }}
+								initial={{ opacity: 0, y: 40 }}
+								whileInView={{ opacity: 1, y: 0 }}
 								transition={{ duration: 1, delay: 0.3 }}
 								className="font-secondary tracking-wide text-[12px]
 								  md:text-[15px]   text-white md:leading-[155.7%] mt-4 md:mt-9 "
