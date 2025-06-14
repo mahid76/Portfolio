@@ -49,7 +49,7 @@ const Contact = () => {
 						initial={{ opacity: 0 }}
 						animate={{ opacity: 1 }}
 						transition={{ duration: 1, delay: 0.5 }}
-						action=""
+						
 					>
 						<div className="flex w-full gap-9  ">
 							<div class="relative w-full">

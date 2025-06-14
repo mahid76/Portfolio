@@ -7,7 +7,7 @@ const Logo = () => {
     xmlns="http://www.w3.org/2000/svg"
     id="Layer_1"
     data-name="Layer 1"
-    className=" w-50"
+    className=" md:w-50  w-30"
     viewBox="0 0 320.9 69.2"
     
   >
