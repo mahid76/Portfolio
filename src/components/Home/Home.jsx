@@ -90,30 +90,30 @@ const Home = () => {
 									<Line></Line>
 								</div>
 								<div className="flex md:flex-row flex-col  md:mt-[80px] md:static gap-y-3 md:gap-y-0 mb-4 md:justify-between absolute bottom-0 right-0 z-[2] md:z-0">
-									<a href="mailto:mahidulislamsohan76@gmail.com">
+									<motion.a href="mailto:mahidulislamsohan76@gmail.com">
 										<MdEmail className="hover:scale-125 duration-200 size-[25px] md:size-[40px] shadow-md px-[2px] md:px-2  text-black  bg-white md:bg-[#c4c4c4] rounded-md  md:rounded-[10px] " />
-									</a>
-									<a href="https://www.linkedin.com/in/md-mahidul-islam-poblaaa/">
+									</motion.a>
+									<motion.a href="https://www.linkedin.com/in/md-mahidul-islam-poblaaa/">
 										<FaLinkedinIn className="hover:scale-125 duration-200 size-[25px] md:size-[40px] shadow-md px-[2px] md:px-2  text-black  bg-white md:bg-[#c4c4c4] rounded-md  md:rounded-[10px] " />
-									</a>
-									<a href="https://www.facebook.com/jerrypoblaaa">
+									</motion.a>
+									<motion.a href="https://www.facebook.com/jerrypoblaaa">
 										<FaFacebook className="hover:scale-125 duration-200 size-[25px] md:size-[40px] shadow-md px-[2px] md:px-2  text-black  bg-white md:bg-[#c4c4c4] rounded-md  md:rounded-[10px] " />
-									</a>
-									<a href="#">
+									</motion.a>
+									<motion.a href="#">
 										<IoLogoInstagram className="hover:scale-125 duration-200 size-[25px] md:size-[40px] shadow-md px-[2px] md:px-2  text-black  bg-white md:bg-[#c4c4c4] rounded-md  md:rounded-[10px] " />
-									</a>
-									<a href="tel:+8801601117731">
+									</motion.a>
+									<motion.a href="tel:+8801601117731">
 										<BsWhatsapp className="hover:scale-125 duration-200 size-[25px] md:size-[40px] shadow-md px-[2px] md:px-2  text-black  bg-white md:bg-[#c4c4c4] rounded-md  md:rounded-[10px] " />
-									</a>
-									<a href="https://github.com/mahid76">
+									</motion.a>
+									<motion.a href="https://github.com/mahid76">
 										<FaGithub className="hover:scale-125 duration-200 size-[25px] md:size-[40px] shadow-md px-[2px] md:px-2  text-black  bg-white md:bg-[#c4c4c4] rounded-md  md:rounded-[10px] " />
-									</a>
-									<a href="#">
+									</motion.a>
+									<motion.a href="#">
 										<FaXTwitter className="hover:scale-125 duration-200 size-[25px] md:size-[40px] shadow-md px-[2px] md:px-2  text-black  bg-white md:bg-[#c4c4c4] rounded-md  md:rounded-[10px] " />
-									</a>
+									</motion.a>
 								</div>
 								<div className="flex justify-center md:static  md:mt-[80px]  bottom-3 left-0 z-[2] absolute">
-									<a href="#">
+									<a href="../../assets/resume-of-mahidul-islam.pdf" download>
 										<p className="overflow-hidden text-[12px] md:text-sm font-bold  text-black bg-white md:bg-transparent rounded-lg md:rounded-2xl py-1 md:py-3 px-5 md:px-[34px] md:border-x border-x-black relative group hover:text-white z-10 font-secondary duration-[400ms] ease-in-out">
 											My CV
 											<div className="w-0 h-0 bg-black absolute left-0 top-0 duration-[350ms] ease-in-out rounded-t-none rounded-l-none rounded-br-[100%]   group-hover:w-[100%] -z-10 group-hover:h-[100%]  "></div>
@@ -137,50 +137,38 @@ const Home = () => {
 						</div>
 					</Container>
 				</section>
-				<div className="bg-black about  bottom-0 left-0  py-14">
+				<div className="bg-black py-14">
 					<Container>
 						<div className="' max-w-[772px] ">
-							<SplitText
-								text={`"Let’s Build Something Great"`}
-								className="font-bold text-[30px]  text-white tracking-[20.54%] font-primary  "
-								delay={800}
-								duration={3}
-								ease="power3.out"
-								splitType="lines"
-								from={{ opacity: 0, y: 40 }}
-								to={{ opacity: 1, y: 0 }}
-								threshold={0.1}
-								rootMargin="150px"
-								textAlign="center"
-								onLetterAnimationComplete={handleAnimationComplete}
-							/>
-
-							<SplitText
-								text={`	If you're looking for a developer who cares as much about design
+							<motion.p
+								initial={{ opacity: 0, y:40 }}
+								whileInView={{ opacity: 1, y:0 }}
+								transition={{ duration: 1, delay: 0.3 }}
+								className="font-bold text-lg md:text-[30px]  text-white tracking-[20.54%] font-primary  "
+							>
+								"Let’s Build Something Great"
+							</motion.p>
+							<motion.p
+								initial={{ opacity: 0,y:40 }}
+								whileInView={{ opacity: 1, y:0 }}
+								transition={{ duration: 1, delay: 0.3 }}
+								className="font-secondary tracking-wide text-[12px]
+								  md:text-[15px]   text-white md:leading-[155.7%] mt-4 md:mt-9 "
+							>
+								If you're looking for a developer who cares as much about design
 								as they do about functionality, let's connect. Whether you have
 								a startup idea or need help polishing your existing site, I’m
-								ready to help.`}
-								className="font-secondary tracking-wide text-[15px] text-white leading-[155.7%] mt-9 "
-								delay={100}
-								duration={3}
-								ease="power3.out"
-								splitType="lines"
-								from={{ opacity: 0, y: 40 }}
-								to={{ opacity: 1, y: 0 }}
-								threshold={0.1}
-								rootMargin="150px"
-								textAlign="center"
-								onLetterAnimationComplete={handleAnimationComplete}
-							/>
-							<p></p>
+								ready to help.
+							</motion.p>
+
 							<motion.div
 								initial={{ opacity: 0 }}
-								animate={{ opacity: 1 }}
+								whileInView={{ opacity: 1 }}
 								transition={{ duration: 1, delay: 0.3 }}
-								className="flex  mt-[60px]"
+								className="flex  mt-5 md:mt-[60px]"
 							>
 								<Link to={"/AboutMe"}>
-									<p className="overflow-hidden text-sm font-bold  text-white bg-none rounded-2xl py-3 px-[34px] border-x border-x-white relative group hover:text-black z-10  duration-[400ms] ease-in-out">
+									<p className="overflow-hidden text-sm font-bold  text-white bg-none rounded-2xl md:py-3 py-2 px-8 md:px-[34px] border-x border-x-white relative group hover:text-black z-10  duration-[400ms] ease-in-out">
 										About Me
 										<div className="w-0 h-0 bg-white absolute left-0 top-0 duration-[350ms] ease-in-out rounded-t-none rounded-l-none rounded-br-[100%]   group-hover:w-[100%] -z-10 group-hover:h-[100%]  "></div>
 										<div className="w-0 h-0 bg-white absolute right-0 bottom-0 duration-[450ms] ease-in-out rounded-tl-[180%] rounded-r-none rounded-b-none   group-hover:w-[100%] -z-10 group-hover:h-[100%]"></div>
