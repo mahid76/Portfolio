@@ -8,7 +8,7 @@ import SkillsPart from "../SkillsPart/SkillsPart";
 const AboutMe = () => {
 	return (
 		<ReactLenis root>
-			<div className="scroll-smooth">
+			<div className="scroll-smooth bg-black">
 				<div
 					className="bg-black h-dvh"
 					style={{ width: "100%", position: "absolute" }}
@@ -21,7 +21,7 @@ const AboutMe = () => {
 					/>
 				</div>
 				<Navbar></Navbar>
-				<section className=" pt-15   md:h-screen flex items-center md:flex-row flex-col ">
+				<section className=" pt-15 pb-10  md:h-screen flex items-center md:flex-row flex-col ">
 					<Container>
 						<div className="">
 							<motion.div
