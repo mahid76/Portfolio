@@ -157,7 +157,7 @@ const Home = () => {
 									</a>
 								</div>
 							</div>
-							<motion.div
+							<div
 								initial={{ opacity: 0 }}
 								animate={{ opacity: 1 }}
 								transition={{ duration: 1, delay: 0.3 }}
@@ -168,7 +168,7 @@ const Home = () => {
 									src={mahidPicture}
 									alt=""
 								/>
-							</motion.div>
+							</div>
 						</div>
 					</Container>
 				</section>
