@@ -23,7 +23,7 @@ const Contact = () => {
 				/>
 			</div>
 			<Navbar></Navbar>
-			<section class=" relative  pt-[120px] pb-[80px] h-dvh text-gray-400">
+			<section class=" relative pt-[80px]  md:pt-[120px] pb-8 md:pb-[80px]  text-gray-400">
 				<Container>
 					<div class=" mb-12 flex justify-center flex-col">
 						<BlurText
@@ -127,12 +127,12 @@ const Contact = () => {
 						initial={{ opacity: 0, y: 100 }}
 						animate={{ opacity: 1, y: 0 }}
 						transition={{ duration: 1, delay: 0.5 }}
-						class="mt-10  border-t border-gray-800 p-2 pt-8 text-center"
+						class="mt-7 md:mt-10  border-t border-gray-800 p-2 pt-8 text-center"
 					>
-						<a className="text-indigo-400 font-secondary font-" href="">
+						<a className="text-indigo-400 font-secondary font-" href="mailto:mahidulislamsohan76@gmail.com">
 							mahidulislamsohan76@gmail.com
 						</a>
-						<p class="my-3 leading-normal">Dhaka 1207</p>
+						<p class="mt-1 mb-2 md:my-3 leading-normal">Dhaka 1207</p>
 						<span class="inline-flex">
 							<a href="#" className="text-gray-500">
 								<svg
