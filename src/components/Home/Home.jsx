@@ -21,7 +21,7 @@ const handleAnimationComplete = () => {
 const Home = () => {
 	return (
 		<ReactLenis root>
-			<div className="scroll-smooth">
+			<div className=" scroll-smooth">
 				<Navbar></Navbar>
 				<section className="bg-black relative overflow-hidden  md:before:bg-[#d7d7d7] pt-[195px] md:pt-[150px]  z-[1] before:absolute before:h-full before:w-full md:before:z-[-1] before:z-[2] before:bg-black/50  before:bottom-0 before:right-0 md:before:top-0 md:before:left-0 z- before:[clip-path:polygon(0%_75%,100%_55%,100%_100%,0_100%)]  md:before:[clip-path:polygon(0_0,56%_0,42%_100%,0_100%)] ">
 					<div className="absolute top-0 left-0  w-full h-full z-[-10]">

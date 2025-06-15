@@ -42,7 +42,7 @@ const Projects = () => {
 			image: cleaning,
 		},
 		{
-			name: "Portfolio",
+			name: "Portfolio ",
 			year: "Jun2025",
 			align: "left",
 			link: "https://portfolio-iota-one-bhub1wc80k.vercel.app/",
@@ -70,7 +70,7 @@ const Projects = () => {
 						<div className="md:py-[140px] py-[50px] text-center">
 							<div className="flex justify-center flex-col">
 								<BlurText
-									text="Projects"
+									text="Projects "
 									delay={150}
 									animateBy="words"
 									direction="top"
@@ -79,7 +79,7 @@ const Projects = () => {
 								/>
 								<BlurText
 									text="I have worked on a variety of web development projects, ranging from responsive websites for small businesses to
-									complex front-end interfaces."
+									complex front-end interfaces.  "
 									delay={30}
 									animateBy="words"
 									direction="top"
