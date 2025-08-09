@@ -5,6 +5,9 @@ import agenc from "../../assets/agenc.jpg";
 import cleaning from "../../assets/cleaning.jpg";
 import portfolioCover from "../../assets/portfolioCover.jpg";
 import innovate from "../../assets/innovate.jpg";
+import petroil from "../../assets/petroil.png";
+import quriarbox from "../../assets/quriarbox.png";
+import exclusive from "../../assets/exclusive.png";
 import Container from "../Layout/Container";
 import Navbar from "../Navbar/Navbar";
 import Aurora from "../ReactBits/Aurora";
@@ -18,8 +21,32 @@ const blurAnimationComplete = () => {
 const Projects = () => {
 	const projects = [
 		{
+			name: "Exclusive",
+			year: "Aug 2025",
+			align: "left",
+			link: "https://exclusive-e-commerce-mocha.vercel.app/",
+			code: "https://github.com/mahid76/Exclusive_E-commerce",
+			image: exclusive,
+		},
+		{
+			name: "Quriarbox",
+			year: "July 2025",
+			align: "right",
+			link: "https://quriarbox-react.vercel.app/",
+			code: "https://github.com/mahid76/Quriarbox-react",
+			image: quriarbox,
+		},
+		{
+			name: "petroil",
+			year: "July 2025",
+			align: "left",
+			link: "https://petroil-rouge.vercel.app/",
+			code: "https://github.com/mahid76/Petroil",
+			image: petroil,
+		},
+		{
 			name: "Innovate",
-			year: "May2025",
+			year: "May 2025",
 			align: "right",
 			link: "https://innovate-react-01-git-main-md-mahidul-islams-projects.vercel.app/",
 			code: "https://github.com/mahid76/Innovate_React_01",
@@ -27,7 +54,7 @@ const Projects = () => {
 		},
 		{
 			name: "Agenc",
-			year: "Dec2024",
+			year: "Dec 2024",
 			align: "left",
 			link: "https://mahid76.github.io/Agenc_Project02_CIT/",
 			code: "https://github.com/mahid76/Agenc_Project02_CIT",
@@ -35,7 +62,7 @@ const Projects = () => {
 		},
 		{
 			name: "Cleaning",
-			year: "Nov2024",
+			year: "Nov 2024",
 			align: "right",
 			link: "https://mahid76.github.io/Cleaning_Project01_CIT/",
 			code: "https://github.com/mahid76/Cleaning_Project01_CIT",
@@ -43,7 +70,7 @@ const Projects = () => {
 		},
 		{
 			name: "Portfolio ",
-			year: "Jun2025",
+			year: "Jun 2025",
 			align: "left",
 			link: "https://portfolio-iota-one-bhub1wc80k.vercel.app/",
 			code: "https://github.com/mahid76/Portfolio",
