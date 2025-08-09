@@ -2,7 +2,7 @@
 @import "tailwindcss";
 
 @theme {
-  --font-display: "Oswald", "sans-serif"; 
+  
   --font-primary: "GT-Walsheim", "sans-serif"; 
   --font-secondary: "Suisse", "sans-serif"; 
   --breakpoint-mf: 956px;

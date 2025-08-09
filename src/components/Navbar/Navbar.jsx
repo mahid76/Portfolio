@@ -28,18 +28,18 @@ const Navbar = () => {
 								<li>Home</li>
 								<div className="absolute -left-3 group-hover:h-full group-hover:w-[2px] ease-in-out  duration-250 top-1/2 transform -translate-y-1/2  h-[2px] w-[0px] bg-white"></div>
 							</Link>
-							<Link to={"/AboutMe"} className="relative group">
+							<Link to={"/aboutMe"} className="relative group">
 								<li>About & Skills</li>
 								<div className="absolute -left-3 group-hover:h-full group-hover:w-[2px] ease-in-out  duration-250 top-1/2 transform -translate-y-1/2  h-[2px] w-[0px] bg-white"></div>
 							</Link>
 
-							<Link to={"/Projects"} className="relative group">
+							<Link to={"/projects"} className="relative group">
 								<li>Projects</li>
 								<div className="absolute -left-3 group-hover:h-full group-hover:w-[2px] ease-in-out  duration-250 top-1/2 transform -translate-y-1/2  h-[2px] w-[0px] bg-white"></div>
 							</Link>
 						</ul>
 						<div className="flex justify-center  ">
-							<Link to={"/Contact"}>
+							<Link to={"/contact"}>
 								<p class="relative  p-px mt-4 md:mt-0  md:ml-12 font-medium leading-6 font-secondary text-lg text-white no-underline bg-gray-950 shadow-2xl cursor-pointer group rounded-xl shadow-zinc-900">
 									<span class="absolute inset-0 overflow-hidden rounded-xl">
 										<span class="absolute inset-0 rounded-xl bg-[image:radial-gradient(75%_100%_at_50%_0%,rgba(56,189,248,0.6)_0%,rgba(56,189,248,0)_75%)] opacity-0 transition-opacity duration-500 group-hover:opacity-100"></span>
