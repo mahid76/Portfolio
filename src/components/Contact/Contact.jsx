@@ -10,9 +10,9 @@ const blurAnimationComplete = () => {
 
 const Contact = () => {
 	return (
-		<div className=" relative">
+		<div className=" relative bg-black">
 			<div
-				className="bg-black absolute top-0 left-0 w-full h-full "
+				className="bg-black h-dvh absolute top-0 left-0 w-full  "
 				style={{ width: "100%", position: "absolute" }}
 			>
 				<Aurora
@@ -25,7 +25,8 @@ const Contact = () => {
 			<Navbar></Navbar>
 			<section class=" relative pt-[80px]  md:pt-[120px] pb-8 md:pb-[80px]  text-gray-400">
 				<Container>
-					<div class=" mb-12 flex justify-center flex-col">
+					<div>
+						<div class=" mb-12 flex justify-center flex-col">
 						<BlurText
 							text="Let's Connect"
 							delay={150}
@@ -186,6 +187,7 @@ const Contact = () => {
 							</a>
 						</span>
 					</motion.div>
+					</div>
 				</Container>
 			</section>
 		</div>
